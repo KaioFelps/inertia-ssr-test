@@ -1,0 +1,19 @@
+[package]
+name = "test_hyper_client"
+description = "testing hyper rs for client requests"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["server", "inertia"]
+
+[workspace.dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[dependencies]
+hyper = { version = "1.4.1", features = ["http1", "http2", "client"] }
+tokio = { version = "1.40", features = ["full"] }
+http-body-util = "0.1"
+hyper-util = { version = "0.1", features = ["full"] }
+async-trait = "0.1.82"
