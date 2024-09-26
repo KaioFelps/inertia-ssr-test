@@ -1,13 +1,13 @@
 use serde::{Deserialize, Serialize};
 use serde_json::{Map, Value};
 
-#[derive(Serialize)]
+#[derive(Deserialize, Serialize, Debug, PartialEq, Eq)]
 pub struct InertiaAppResponse {
     pub head: Vec<String>,
     pub body: String
 }
 
-#[derive(Deserialize)]
+#[derive(Deserialize, Serialize, Debug)]
 #[allow(dead_code)]
 pub struct InertiaPage {
     pub component: String,
