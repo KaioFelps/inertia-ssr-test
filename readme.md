@@ -1,4 +1,4 @@
-# Testing Ssr server requests!
+# Testing Inertia SSR Requests!
 This repo is intended to be a test of an [`inertia-rust`](https://github.com/KaioFelps/inertia-rust) application workflow.
 
 Lets consider that `inertia-rust::Inertia::render(...)` confirmed that there is a ssr server:
