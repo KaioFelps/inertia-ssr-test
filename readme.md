@@ -1,5 +1,5 @@
 # Testing Ssr server requests!
-This repo is intended to be a test of an [`inertia-rust`](https://github.com/KaioFelps/inertia-rust/blob/main/src/inertia.rs) application workflow.
+This repo is intended to be a test of an [`inertia-rust`](https://github.com/KaioFelps/inertia-rust) application workflow.
 
 Lets consider that `inertia-rust::Inertia::render(...)` confirmed that there is a ssr server:
 - inertia will make a request sending an InertiaPage object to the ssr client with [reqwest](https://github.com/seanmonstar/reqwest);
