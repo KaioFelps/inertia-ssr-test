@@ -1,5 +1,5 @@
 [package]
-name = "test_hyper_client"
+name = "test_inertia_ssr_reqs"
 description = "testing hyper rs for client requests"
 version = "0.1.0"
 edition = "2021"
