@@ -5,16 +5,18 @@ version = "0.1.0"
 edition = "2021"
 
 [workspace]
-members = ["server", "inertia"]
+members = ["inertia"]
 
 [workspace.dependencies]
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
+reqwest = { version = "0.12", features = ["json"] }
 
 [dependencies]
 async-trait = "0.1.82"
 tokio = { version = "1.40", features = ["full"] }
-reqwest = { version = "0.12", features = ["json"] }
 inertia = { path = "inertia" }
+supervisor = { path = "supervisor" }
 serde.workspace = true
+reqwest.workspace = true
 serde_json.workspace = true
