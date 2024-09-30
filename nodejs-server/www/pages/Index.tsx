@@ -14,7 +14,7 @@ export default function Index({auth: {user}}: Props) {
                 <title>Hello inertia!</title>
                 <meta name="description" content="Just a mocked head... Ha!" />
             </Head>
-            <h1>Hello 4000 {user}</h1>
+            <h1>Hello {user}</h1>
         </>
     )
 }
